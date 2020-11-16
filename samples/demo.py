@@ -130,9 +130,9 @@ file_names = next(os.walk(IMAGE_DIR))[2]
 image = skimage.io.imread(
 #"/home/dev/oosman/Documents/NuGen/3-joggers/IMG_8365.JPG"  # joggers
 #"/home/dev/oosman/Documents/NuGen/22-passing-sedan/IMG_8671.JPG" # stop sign, car
-"/home/dev/oosman/Documents/NuGen/8x-zad-passing/out9.png"
+#"/home/dev/oosman/Documents/NuGen/8x-zad-passing/out9.png"
 #"/home/dev/oosman/Documents/NuGen/11x-cyclists-passing/IMG_8634.JPG"
-#os.path.join(IMAGE_DIR, random.choice(file_names))
+os.path.join(IMAGE_DIR, random.choice(file_names))
 )
 
 # Run detection
